@@ -1,0 +1,14 @@
+name: PluginDeleter
+version: '${project.version}'
+main: fab3f.plugindeleter.PluginDeleter
+api-version: 1.18
+prefix: PluginDeleter
+softdepend: [ Hibernate ]
+authors: [ fab3F ]
+description: Deletes Auto-Generated Plugins
+website: https://easyflick.us.to
+
+commands:
+  plugindel:
+    description: Entfernt Auto-Generierte Plugins
+    usage: Benutze '/plugindel' - Du musst ein Operator sein, um das zu tun!
